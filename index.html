@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container1">
+
+        <div class="block" >
+                <h2>Cairo</h2>
+                <h3 id="degree">Degree</h3>
+                <p class="condition" id="descriptionCairo">Weather Condition</p>
+                <img src="images/5.png" alt="weather condition" id="imgContainer" >     
+        </div>
+
+        <div id="circle"> <h2 id="circleText">Weather is Kool!</h2></div>
+
+        <div class="block" id="london">
+                <h2>London</h2>
+                <h3 id="degreeLondon">Degree</h3>
+                <p class="condition" id="descriptionLondon">Weather Condition</p>
+                <img src="images/5.png" alt="weather condition" id="imgContainerLondon" class="londonImg">
+        </div>
+
+    </div>
+
+    <div class="searchPlace">
+
+        <h1 id="countrySearch">Country/City</h1>
+        <h3 id="degreeSearch">°C</h3>
+        <p id="search">Enter City or Country Name Below:</p>
+        <p id= "conditionSearch">Weather Condition</p>
+        <input type="text" placeholder="" id="cityName">
+        <button id="submitButton">Enter</button>
+        <img src="images/5.png" alt="weather condition" id="imgSearch">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
